@@ -1,16 +1,16 @@
 a {
 	text-decoration: none;
 }
-.green {
+.important {
 	color: green;
 }
-.yellow {
-	color: yellow;
+.trivial {
+	color: blue;
 }
-.red {
+.nerdy {
 	color: red;
 }
-.gold {
+.external {
 	color: gold;
 }
 

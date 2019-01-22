@@ -12,7 +12,7 @@
 				<ul>
 					<li>
 						<Review :types="['Taxable','IRA']">
-							<a slot="link" href="http://mbsy.co/llmZT" class="gold"> M1 Finance </a>
+							<a slot="link" href="http://mbsy.co/llmZT" class="external"> M1 Finance </a>
 							<p slot="bonus"> We both get $10 when you deposit $100. </p>
 							<p slot="special"> They are running an additional special until the end of January 2019, open an IRA with $500 and recieve $25. </p>
 							<ul slot="review">
