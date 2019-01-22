@@ -1,7 +1,6 @@
 <template>
-  <section class="container">
-    <div>
-	  <Logo />
+  <BasePage>
+    <div slot="content">
       <h2 class="title">
         Retirement
       </h2>
@@ -11,19 +10,16 @@
 	  <p>
 		Preparing for Retirement is an important step in your financial journey.
 	  </p>
-	  <Topics />
     </div>
-  </section>
+  </BasePage>
 </template>
 
 <script>
-import Topics from '~/components/Topics.vue'
-import Logo from '~/components/Logo.vue'
+import BasePage from '~/components/BasePage.vue'
 
 export default {
 	components: {
-		Topics,
-		Logo
+		BasePage
 	}
 }
 </script>
