@@ -1,65 +1,31 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
-      <h1 class="title">
-        financefriday
-      </h1>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
-      </div>
+	  <Logo />
+      <h3 class="subtitle">
+        Learn about Finances
+      </h3>
+	  <p>
+		Welcome to Ryan's site! This is where I will compile all the information I have to help you find your cadence to becoming financially familiar.
+	  </p>
+	  <p>
+		Disclaimer: I am not a financial professional, please consult with a CPA/Financial Advisor/other professional
+		before making any personal decisions with your money.
+	  </p>
+	  <Topics />
     </div>
   </section>
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
+import Topics from '~/components/Topics.vue'
+import Logo from '~/components/Logo.vue'
 
 export default {
-  components: {
-    AppLogo
-  }
+	components: {
+		Topics,
+		Logo
+	}
 }
 </script>
-
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
 
