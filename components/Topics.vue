@@ -9,6 +9,8 @@
 			<ul>
 				<li><nuxt-link to="/retirement/accounts/sponsortype" class="important">IRA vs 401k</nuxt-link></li>
 				<li><nuxt-link to="/retirement/accounts/accounttype" class="important">Traditional vs Roth</nuxt-link></li>
+				<li><nuxt-link to="/retirement/accounts/hsa" class="trivial">HSA (Health Savings Account)</nuxt-link></li>
+				<li><nuxt-link to="/retirement/accounts/solok" class="trivial">Individual 401k (Solo-K)</nuxt-link></li>
 			</ul>
 		</ul>
 		<li><nuxt-link to="/taxes" class="important">Taxes</nuxt-link></li>
