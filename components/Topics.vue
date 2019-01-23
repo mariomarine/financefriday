@@ -14,6 +14,11 @@
 			</ul>
 		</ul>
 		<li><nuxt-link to="/taxes" class="important">Taxes</nuxt-link></li>
+			<ul>
+				<li><nuxt-link to="/taxes/creditvsdeduction" class="important">Tax Credit vs Tax Deduction</nuxt-link></li>
+				<li><nuxt-link to="/taxes/brackets" class="important">Tax Brackets</nuxt-link></li>
+				<li><nuxt-link to="/taxes/savers" class="important">Tax Saver's Credit</nuxt-link></li>
+			</ul>
 		<li><nuxt-link to="/assets" class="important">Assets</nuxt-link></li>
 			<ul>
 				<li><nuxt-link to="/assets/stocks" class="important">Stock Market</nuxt-link></li>
