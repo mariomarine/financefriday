@@ -38,10 +38,12 @@
 
 <script>
 import BasePage from '~/components/BasePage.vue'
+import Review from '~/components/Review.vue'
 
 export default {
 	components: {
-		BasePage
+		BasePage,
+		Review
 	}
 }
 </script>
