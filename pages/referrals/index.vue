@@ -30,6 +30,51 @@
 							</ul>
 						</Review>
 					</li>
+					<li>
+						<Review :types="['Taxable','IRA']">
+							<a slot="link" href="https://wlth.fr/2ixluVC" class="external"> Wealthfront </a>
+							<p slot="bonus"> We both get an additional $5000 managed free. </p>
+							<ul slot="review">
+								<li> Wealthfront is a Robo-Advisor, this means it automatically invests according to your risk tolerance and is very good at it. </li>
+								<li> Wealthfront has a very simple and clean interface. </li>
+								<li> The fees are just a little high...but with the referral link there is little risk since the first $5000 is managed for free. </li>
+							</ul>
+						</Review>
+					</li>
+					<li>
+						<Review :types="['Taxable','IRA']">
+							<a slot="link" href="https://www.schwab.com/public/schwab/nn/promo/refer-prospect.html?refrid=REFERNCG498N4" class="external"> Charles Schwab </a>
+							<p slot="bonus"> You get $100 when you open an account with $1000 or more. </p>
+							<ul slot="review">
+								<li> The referral bonus is rather large. </li>
+								<li> The interface is...alright, comprehensive, but not amazing. </li>
+								<li> There is a wide variety of options available (both investable securities and account types). </li>
+							</ul>
+						</Review>
+					</li>
+					<li>
+						<Review :types="['Taxable']">
+							<a slot="link" href="https://share.robinhood.com/ryanb551" class="external"> Robinhood </a>
+							<p slot="bonus"> We both get a free random stock (probably valued around $5, could be as high as about $200) </p>
+							<ul slot="review">
+								<li> Robinhood is "free", as they charge no commission, nor do they have annual fees. </li>
+								<li> Robinhood has grown faster than almost every other brokerage, and has become quite a powerhouse, it has a great interface. </li>
+								<li> There is a Robinhood Gold feature that can be a benefit for a large enough investor. </li>
+							</ul>
+						</Review>
+					</li>
+					<li>
+						<Review :types="['Analysis']">
+							<a slot="link" href="https://share.personalcapital.com/x/0LriAP" class="external"> Personal Capital </a>
+							<p slot="bonus"> We both get a $20 Amazon Gift Card when you sign up and link lots of accounts (look at details before counting on it). </p>
+							<ul slot="review">
+								<li> Personal Capital is free, it makes it's money from selling money management services to larger investors. </li>
+								<li> If you have ever wanted to see a little more data around your investments, this is a great place to go. </li>
+								<li> This is an account aggregator, so it works best if you link all of your accounts. </li>
+								<li> Also, this is my preferred way to track my Net Worth, which is an important metric into self-financial-insight. </li>
+							</ul>
+						</Review>
+					</li>
 				</ul>
 			</ul>
 		</div>
