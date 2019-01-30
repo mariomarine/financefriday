@@ -13,6 +13,7 @@
 				<li><nuxt-link to="/retirement/accounts/solok" class="trivial">Individual 401k (Solo-K)</nuxt-link></li>
 				<li><nuxt-link to="/retirement/accounts/selfdirected" class="nerdy">Self-Directed IRA</nuxt-link></li>
 			</ul>
+			<li><nuxt-link to="/retirement/accounts" class="trivial">F.I.R.E</nuxt-link></li>
 		</ul>
 		<li><nuxt-link to="/taxes" class="important">Taxes</nuxt-link></li>
 			<ul>
