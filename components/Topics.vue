@@ -24,6 +24,15 @@
 		<li><nuxt-link to="/assets" class="important">Assets</nuxt-link></li>
 			<ul>
 				<li><nuxt-link to="/assets/stocks" class="important">Stock Market</nuxt-link></li>
+				<ul>
+					<li><nuxt-link to="/assets/stocks/funds" class="important">Funds</nuxt-link></li>
+					<ul>
+						<li><nuxt-link to="/assets/stocks/funds/mutual" class="important">Mutual Funds</nuxt-link></li>
+						<li><nuxt-link to="/assets/stocks/funds/etf" class="important">ETFs (Exchange-Traded Funds)</nuxt-link></li>
+						<li><nuxt-link to="/assets/stocks/funds/reit" class="trivial">REITs (Real Estate Investment Trusts)</nuxt-link></li>
+						<li><nuxt-link to="/assets/stocks/funds/cef" class="trivial">CEFs (Closed-End Funds)</nuxt-link></li>
+					</ul>
+				</ul>
 				<li><nuxt-link to="/assets/realestate" class="important">Real Estate</nuxt-link></li>
 			</ul>
 		<li><nuxt-link to="/insurance" class="important">Insurance</nuxt-link></li>
