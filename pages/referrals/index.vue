@@ -35,6 +35,7 @@
 							<a slot="link" href="https://wlth.fr/2ixluVC" class="external"> Wealthfront </a>
 							<p slot="bonus"> We both get an additional $5000 managed free. </p>
 							<ul slot="review">
+								<li> Minimum to open an account is $500. </li>
 								<li> Wealthfront is a Robo-Advisor, this means it automatically invests according to your risk tolerance and is very good at it. </li>
 								<li> Wealthfront has a very simple and clean interface. </li>
 								<li> The fees are just a little high...but with the referral link there is little risk since the first $5000 is managed for free. </li>
